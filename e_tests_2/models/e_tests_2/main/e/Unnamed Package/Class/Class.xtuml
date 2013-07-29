@@ -44,61 +44,27 @@ INSERT INTO O_ATTR
 	'',
 	'');
 INSERT INTO O_NBATTR
-	VALUES ("9b32f47f-149b-4229-94fa-9ca9a19c14ca",
+	VALUES ("3942c9ae-3a09-4a4a-9b18-ac2f73ad27b0",
 	"615a3318-b6da-43aa-aa4c-ffb336530a0e");
 INSERT INTO O_BATTR
-	VALUES ("9b32f47f-149b-4229-94fa-9ca9a19c14ca",
+	VALUES ("3942c9ae-3a09-4a4a-9b18-ac2f73ad27b0",
 	"615a3318-b6da-43aa-aa4c-ffb336530a0e");
 INSERT INTO O_ATTR
-	VALUES ("9b32f47f-149b-4229-94fa-9ca9a19c14ca",
+	VALUES ("3942c9ae-3a09-4a4a-9b18-ac2f73ad27b0",
 	"615a3318-b6da-43aa-aa4c-ffb336530a0e",
 	"91eaf884-56ee-4c66-a230-facff0afd8a1",
-	'3_1',
+	'3_2',
 	'',
 	'',
-	'3_1',
+	'3_2',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000002",
 	'',
 	'');
-INSERT INTO O_NBATTR
-	VALUES ("80470c34-27f2-4b5c-81f6-18b69919b819",
-	"615a3318-b6da-43aa-aa4c-ffb336530a0e");
-INSERT INTO O_BATTR
-	VALUES ("80470c34-27f2-4b5c-81f6-18b69919b819",
-	"615a3318-b6da-43aa-aa4c-ffb336530a0e");
-INSERT INTO O_ATTR
-	VALUES ("80470c34-27f2-4b5c-81f6-18b69919b819",
-	"615a3318-b6da-43aa-aa4c-ffb336530a0e",
-	"9b32f47f-149b-4229-94fa-9ca9a19c14ca",
-	'4_1',
-	'',
-	'',
-	'4_1',
-	0,
-	"ba5eda7a-def5-0000-0000-000000000002",
-	'',
-	'');
-INSERT INTO O_ID
-	VALUES (0,
-	"615a3318-b6da-43aa-aa4c-ffb336530a0e");
-INSERT INTO O_ID
-	VALUES (1,
-	"615a3318-b6da-43aa-aa4c-ffb336530a0e");
-INSERT INTO O_ID
-	VALUES (2,
-	"615a3318-b6da-43aa-aa4c-ffb336530a0e");
-INSERT INTO PE_PE
-	VALUES ("615a3318-b6da-43aa-aa4c-ffb336530a0e",
-	1,
-	"0f09a133-9aeb-443a-9745-84f755a6398c",
+INSERT INTO S_DT_PROXY
+	VALUES ("ba5eda7a-def5-0000-0000-000000000002",
 	"00000000-0000-0000-0000-000000000000",
-	4);
-INSERT INTO EP_PKG_PROXY
-	VALUES ("0f09a133-9aeb-443a-9745-84f755a6398c",
-	"00000000-0000-0000-0000-000000000000",
-	"3666eebd-1bf4-4bff-9923-1837dae4ed45",
-	'Unnamed Package',
+	'integer',
 	'',
-	0,
-	'../Unnamed Package.xtuml');
+	'',
+	
