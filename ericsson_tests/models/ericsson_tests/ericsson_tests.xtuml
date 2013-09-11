@@ -1,0 +1,56 @@
+-- BP 7.1.6 content: SystemModel syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO S_SYS
+	VALUES ("ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	'ericsson_tests',
+	1);
+INSERT INTO GD_MD
+	VALUES ("5aecd36e-92b2-40a3-a73c-bc03cf63e1e8",
+	108,
+	"ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	92,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'4.0.3',
+	'ericsson_tests');
+INSERT INTO GD_GE
+	VALUES ("80c7272c-a20f-4a65-9bbb-8aaf2824045d",
+	"5aecd36e-92b2-40a3-a73c-bc03cf63e1e8",
+	"888fb0d7-8258-435f-b898-d2c4d22dea2c",
+	108,
+	0,
+	'ericsson_tests::Unnamed Package');
+INSERT INTO GD_SHP
+	VALUES ("80c7272c-a20f-4a65-9bbb-8aaf2824045d");
+INSERT INTO GD_NCS
+	VALUES ("80c7272c-a20f-4a65-9bbb-8aaf2824045d");
+INSERT INTO DIM_ND
+	VALUES (204.000000,
+	144.000000,
+	"80c7272c-a20f-4a65-9bbb-8aaf2824045d");
+INSERT INTO DIM_GE
+	VALUES (4548.000000,
+	3288.000000,
+	"80c7272c-a20f-4a65-9bbb-8aaf2824045d",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("80c7272c-a20f-4a65-9bbb-8aaf2824045d",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("5aecd36e-92b2-40a3-a73c-bc03cf63e1e8",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
