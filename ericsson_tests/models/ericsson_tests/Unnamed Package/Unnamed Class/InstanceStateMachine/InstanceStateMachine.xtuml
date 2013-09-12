@@ -1,0 +1,45 @@
+-- BP 7.1.6 content: InstanceStateMachine syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO SM_ISM
+	VALUES ("1cb4f84e-398f-4da2-a4d7-f9ae21c7456b",
+	"4b329f42-d241-45a2-b33c-ca760c24f652");
+INSERT INTO SM_SM
+	VALUES ("1cb4f84e-398f-4da2-a4d7-f9ae21c7456b",
+	'',
+	0);
+INSERT INTO SM_MOORE
+	VALUES ("1cb4f84e-398f-4da2-a4d7-f9ae21c7456b");
+INSERT INTO GD_MD
+	VALUES ("71268852-f9cc-4535-94b7-d62e4d57b16c",
+	8,
+	"1cb4f84e-398f-4da2-a4d7-f9ae21c7456b",
+	40,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'ericsson_tests::Unnamed Package::Unnamed Class::Instance State Machine');
+INSERT INTO DIM_DIA
+	VALUES ("71268852-f9cc-4535-94b7-d62e4d57b16c",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_OBJ_PROXY
+	VALUES ("4b329f42-d241-45a2-b33c-ca760c24f652",
+	'Unnamed Class',
+	1,
+	'KEY',
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'../Unnamed Class.xtuml');
