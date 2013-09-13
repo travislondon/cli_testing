@@ -141,8 +141,9 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("266b83ba-8072-4ebe-933e-31c9c4e6302b",
 	"1cb4f84e-398f-4da2-a4d7-f9ae21c7456b",
-	3,
-	'',
+	1,
+	'b = 22;
+b = b * 2;',
 	'');
 INSERT INTO SM_TAH
 	VALUES ("fff27ff0-2715-44ea-9bb6-cd21cd97281e",
