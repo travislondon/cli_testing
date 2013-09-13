@@ -128,8 +128,9 @@ INSERT INTO SM_AH
 INSERT INTO SM_ACT
 	VALUES ("e82abe7e-e868-4fe2-8e77-d86773229146",
 	"1cb4f84e-398f-4da2-a4d7-f9ae21c7456b",
-	3,
-	'',
+	1,
+	'a = 22;
+a = a * 2;',
 	'');
 INSERT INTO SM_MOAH
 	VALUES ("266b83ba-8072-4ebe-933e-31c9c4e6302b",
