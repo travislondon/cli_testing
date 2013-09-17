@@ -188,23 +188,6 @@ INSERT INTO C_R
 	'Unnamed Interface',
 	'comp::Port2::iface');
 INSERT INTO SPR_REP
-	VALUES ("bf5b40f4-6f8d-4743-a083-b817f4e29be4",
-	"d73e70bc-3e1e-4e36-863f-8ea163f77017",
-	"c7f322dc-00b6-4825-9efb-c8bd6a43913e");
-INSERT INTO SPR_RS
-	VALUES ("bf5b40f4-6f8d-4743-a083-b817f4e29be4",
-	'1',
-	'',
-	'',
-	3);
-INSERT INTO C_EP_PROXY
-	VALUES ("d73e70bc-3e1e-4e36-863f-8ea163f77017",
-	"30f01b83-830a-4fe1-b773-e178a96300f3",
-	-1,
-	'1',
-	'',
-	'../iface/iface.xtuml');
-INSERT INTO SPR_REP
 	VALUES ("f9548cdb-eed4-4fc0-81ee-e59c5978e457",
 	"5a237c3c-5a95-4e33-90e4-d64743ce835e",
 	"c7f322dc-00b6-4825-9efb-c8bd6a43913e");
