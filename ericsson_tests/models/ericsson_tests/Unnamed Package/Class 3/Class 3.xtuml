@@ -7,6 +7,24 @@ INSERT INTO O_OBJ
 	'KEY',
 	'',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("ed77db8e-db08-40bf-b9bd-45a41d732a36",
+	"c27b2caf-afea-4891-9a9d-621d97c4d1bb");
+INSERT INTO O_BATTR
+	VALUES ("ed77db8e-db08-40bf-b9bd-45a41d732a36",
+	"c27b2caf-afea-4891-9a9d-621d97c4d1bb");
+INSERT INTO O_ATTR
+	VALUES ("ed77db8e-db08-40bf-b9bd-45a41d732a36",
+	"c27b2caf-afea-4891-9a9d-621d97c4d1bb",
+	"00000000-0000-0000-0000-000000000000",
+	'test',
+	'',
+	'',
+	'test',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
 INSERT INTO O_ID
 	VALUES (0,
 	"c27b2caf-afea-4891-9a9d-621d97c4d1bb");
