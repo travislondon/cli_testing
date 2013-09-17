@@ -215,9 +215,9 @@ INSERT INTO R_PART
 	VALUES ("4b329f42-d241-45a2-b33c-ca760c24f652",
 	"a623abdc-c6cb-44cc-bd65-1f12489028ed",
 	"1eca3731-335c-4182-968b-f5c98ba0a3d5",
-	1,
 	0,
-	'orig');
+	0,
+	'1');
 INSERT INTO R_RTO
 	VALUES ("4b329f42-d241-45a2-b33c-ca760c24f652",
 	"a623abdc-c6cb-44cc-bd65-1f12489028ed",
@@ -242,7 +242,7 @@ INSERT INTO R_PART
 	"8b12d02a-03b3-4edb-9cbf-7d153fa012cb",
 	0,
 	0,
-	'orig');
+	'1');
 INSERT INTO R_RTO
 	VALUES ("c27b2caf-afea-4891-9a9d-621d97c4d1bb",
 	"a623abdc-c6cb-44cc-bd65-1f12489028ed",
