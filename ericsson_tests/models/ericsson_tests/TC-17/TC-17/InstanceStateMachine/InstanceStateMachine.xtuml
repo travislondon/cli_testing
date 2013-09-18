@@ -27,7 +27,8 @@ INSERT INTO SM_ACT
 	VALUES ("331470f6-33a2-416c-9986-da66016d2107",
 	"2fe815c5-0c9c-4de8-b110-1f03c70f051e",
 	1,
-	'// some oal',
+	'// some oal
+// added from branch one',
 	'');
 INSERT INTO GD_MD
 	VALUES ("661e4525-3c9d-4381-8869-a8aa56e888e9",
