@@ -6,33 +6,19 @@ INSERT INTO C_I
 	'Unnamed Interface',
 	'');
 INSERT INTO C_EP
-	VALUES ("a6b995c3-7af9-4af6-9a75-4965b8d49cab",
+	VALUES ("b8935ce2-b3a7-41ad-9dd8-db4d346fa39d",
 	"6c50b1a8-1a14-4011-b723-85939cda2175",
 	-1,
-	'test',
+	'test2',
 	'');
 INSERT INTO C_IO
-	VALUES ("a6b995c3-7af9-4af6-9a75-4965b8d49cab",
+	VALUES ("b8935ce2-b3a7-41ad-9dd8-db4d346fa39d",
 	"ba5eda7a-def5-0000-0000-000000000000",
-	'test',
+	'test2',
 	'',
 	0,
 	'',
 	"00000000-0000-0000-0000-000000000000");
-INSERT INTO C_EP
-	VALUES ("b8935ce2-b3a7-41ad-9dd8-db4d346fa39d",
-	"6c50b1a8-1a14-4011-b723-85939cda2175",
-	-1,
-	'test2',
-	'');
-INSERT INTO C_IO
-	VALUES ("b8935ce2-b3a7-41ad-9dd8-db4d346fa39d",
-	"ba5eda7a-def5-0000-0000-000000000000",
-	'test2',
-	'',
-	0,
-	'',
-	"a6b995c3-7af9-4af6-9a75-4965b8d49cab");
 INSERT INTO PE_PE
 	VALUES ("6c50b1a8-1a14-4011-b723-85939cda2175",
 	1,
