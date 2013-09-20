@@ -1,0 +1,86 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("777702ef-43a1-490a-a0ec-13b2d38e917e",
+	'Unnamed Class',
+	1,
+	'KEY',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("46503243-173b-4a95-92da-dad159d1bba0",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO O_BATTR
+	VALUES ("46503243-173b-4a95-92da-dad159d1bba0",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO O_ATTR
+	VALUES ("46503243-173b-4a95-92da-dad159d1bba0",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e",
+	"00000000-0000-0000-0000-000000000000",
+	'a',
+	'',
+	'',
+	'a',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("b6e080f7-a60c-4b99-be34-df25746facdd",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO O_BATTR
+	VALUES ("b6e080f7-a60c-4b99-be34-df25746facdd",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO O_ATTR
+	VALUES ("b6e080f7-a60c-4b99-be34-df25746facdd",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e",
+	"46503243-173b-4a95-92da-dad159d1bba0",
+	'b',
+	'',
+	'',
+	'b',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("c81634c6-ac62-45a8-8f4c-a68582d1f409",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO O_BATTR
+	VALUES ("c81634c6-ac62-45a8-8f4c-a68582d1f409",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO O_ATTR
+	VALUES ("c81634c6-ac62-45a8-8f4c-a68582d1f409",
+	"777702ef-43a1-490a-a0ec-13b2d38e917e",
+	"b6e080f7-a60c-4b99-be34-df25746facdd",
+	'c',
+	'',
+	'',
+	'c',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO O_ID
+	VALUES (1,
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO O_ID
+	VALUES (2,
+	"777702ef-43a1-490a-a0ec-13b2d38e917e");
+INSERT INTO PE_PE
+	VALUES ("777702ef-43a1-490a-a0ec-13b2d38e917e",
+	1,
+	"34eccac4-cbad-4ca0-be13-43f94f263e85",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("34eccac4-cbad-4ca0-be13-43f94f263e85",
+	"ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	"ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	'Unnamed Package',
+	'',
+	0,
+	'../Unnamed Package.xtuml');
