@@ -221,6 +221,23 @@ INSERT INTO C_EP_PROXY
 	'three',
 	'',
 	'../iface/iface.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("a276442f-a1bb-402a-892e-712b04403aed",
+	"3482b37f-cd2f-461a-9c01-859e405551e8",
+	"c94d089f-8974-436c-893c-90605cac7e5a");
+INSERT INTO SPR_RS
+	VALUES ("a276442f-a1bb-402a-892e-712b04403aed",
+	'one',
+	'',
+	'',
+	3);
+INSERT INTO C_EP_PROXY
+	VALUES ("3482b37f-cd2f-461a-9c01-859e405551e8",
+	"af885bb3-b45b-4e4f-996a-f269feda5a5e",
+	-1,
+	'one',
+	'',
+	'../iface/iface.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("af885bb3-b45b-4e4f-996a-f269feda5a5e",
 	"00000000-0000-0000-0000-000000000000",
