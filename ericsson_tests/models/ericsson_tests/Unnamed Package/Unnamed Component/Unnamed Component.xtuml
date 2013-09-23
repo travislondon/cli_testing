@@ -187,6 +187,57 @@ INSERT INTO C_R
 	'',
 	'Unnamed Interface',
 	'Unnamed Component::Port2::iface');
+INSERT INTO SPR_REP
+	VALUES ("a2939075-6ac5-47be-a87c-506e4f3576ca",
+	"c3a03581-a678-4cee-b4c7-f8bc57052b06",
+	"c94d089f-8974-436c-893c-90605cac7e5a");
+INSERT INTO SPR_RS
+	VALUES ("a2939075-6ac5-47be-a87c-506e4f3576ca",
+	'one',
+	'',
+	'',
+	3);
+INSERT INTO C_EP_PROXY
+	VALUES ("c3a03581-a678-4cee-b4c7-f8bc57052b06",
+	"af885bb3-b45b-4e4f-996a-f269feda5a5e",
+	-1,
+	'one',
+	'',
+	'../iface/iface.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("ab9b965a-4323-452f-8dac-b27cbe46dcc5",
+	"4483596d-6842-48fc-9ca7-7d23e5d3709f",
+	"c94d089f-8974-436c-893c-90605cac7e5a");
+INSERT INTO SPR_RS
+	VALUES ("ab9b965a-4323-452f-8dac-b27cbe46dcc5",
+	'two',
+	'',
+	'',
+	3);
+INSERT INTO C_EP_PROXY
+	VALUES ("4483596d-6842-48fc-9ca7-7d23e5d3709f",
+	"af885bb3-b45b-4e4f-996a-f269feda5a5e",
+	-1,
+	'two',
+	'',
+	'../iface/iface.xtuml');
+INSERT INTO SPR_REP
+	VALUES ("9363cb1e-cc73-4445-9b90-8e02a88df37a",
+	"7fa59a9a-aa2e-4e5c-a24e-8b158e280200",
+	"c94d089f-8974-436c-893c-90605cac7e5a");
+INSERT INTO SPR_RS
+	VALUES ("9363cb1e-cc73-4445-9b90-8e02a88df37a",
+	'three',
+	'',
+	'',
+	3);
+INSERT INTO C_EP_PROXY
+	VALUES ("7fa59a9a-aa2e-4e5c-a24e-8b158e280200",
+	"af885bb3-b45b-4e4f-996a-f269feda5a5e",
+	-1,
+	'three',
+	'',
+	'../iface/iface.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("af885bb3-b45b-4e4f-996a-f269feda5a5e",
 	"00000000-0000-0000-0000-000000000000",
