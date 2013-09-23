@@ -1,0 +1,32 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("184b67cb-1a00-4fc4-b811-a494bd875832",
+	'one',
+	1,
+	'KEY',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_ID
+	VALUES (0,
+	"184b67cb-1a00-4fc4-b811-a494bd875832");
+INSERT INTO O_ID
+	VALUES (1,
+	"184b67cb-1a00-4fc4-b811-a494bd875832");
+INSERT INTO O_ID
+	VALUES (2,
+	"184b67cb-1a00-4fc4-b811-a494bd875832");
+INSERT INTO PE_PE
+	VALUES ("184b67cb-1a00-4fc4-b811-a494bd875832",
+	1,
+	"c8dd718d-93c4-423b-9e8d-f38a664f26c7",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("c8dd718d-93c4-423b-9e8d-f38a664f26c7",
+	"ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	"ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	'Unnamed Package',
+	'',
+	0,
+	'../Unnamed Package.xtuml');
