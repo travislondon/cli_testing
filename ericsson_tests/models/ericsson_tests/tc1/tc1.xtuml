@@ -1,0 +1,46 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("7fbb4943-85c0-405d-94c2-1533b40dfac5",
+	"ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	"ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	'tc1',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("d108001a-8375-47e2-828d-b13548ed9951",
+	112,
+	"7fbb4943-85c0-405d-94c2-1533b40dfac5",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'ericsson_tests::tc1');
+INSERT INTO DIM_DIA
+	VALUES ("d108001a-8375-47e2-828d-b13548ed9951",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("7fbb4943-85c0-405d-94c2-1533b40dfac5",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("ce83ff3c-52ae-4ece-ad21-95c9a2a6e99c",
+	'ericsson_tests',
+	1,
+	'../ericsson_tests.xtuml');
