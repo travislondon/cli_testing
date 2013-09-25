@@ -6,6 +6,11 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+			<name>org.antlr.eclipse.core.antlrbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>com.mentor.nucleus.bp.mc.c.binary.export_builder</name>
 			<arguments>
 			</arguments>
@@ -83,5 +88,6 @@
 		<nature>org.eclipse.cdt.core.ccnature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+		<nature>org.antlr.eclipse.core.antlrnature</nature>
 	</natures>
 </projectDescription>
