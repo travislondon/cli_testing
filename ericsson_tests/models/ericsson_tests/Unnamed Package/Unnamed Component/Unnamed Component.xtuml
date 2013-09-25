@@ -188,23 +188,6 @@ INSERT INTO C_P
 	'',
 	'Unnamed Component::Port1::Unnamed Interface');
 INSERT INTO SPR_PEP
-	VALUES ("4695a2d8-fe6e-4a30-a938-0e613786e6dc",
-	"9891c33c-c4a0-474d-9166-a2cd33b7a6db",
-	"b3f1e7fe-247e-4358-a1d0-7122ff7de965");
-INSERT INTO SPR_PO
-	VALUES ("4695a2d8-fe6e-4a30-a938-0e613786e6dc",
-	'a',
-	'',
-	'',
-	3);
-INSERT INTO C_EP_PROXY
-	VALUES ("9891c33c-c4a0-474d-9166-a2cd33b7a6db",
-	"3ac7a721-3872-4a32-bc92-c5e82a700e4b",
-	-1,
-	'a',
-	'',
-	'../Unnamed Interface/Unnamed Interface.xtuml');
-INSERT INTO SPR_PEP
 	VALUES ("6c15d53b-8759-4074-a13f-1758f18f3c9a",
 	"c3c3232b-1350-4624-b36c-da1774b6ba3d",
 	"b3f1e7fe-247e-4358-a1d0-7122ff7de965");
