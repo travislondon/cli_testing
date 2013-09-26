@@ -6,29 +6,17 @@ INSERT INTO C_I
 	'iface',
 	'');
 INSERT INTO C_EP
-	VALUES ("400b5972-c780-4cd3-9c23-00787f3313e3",
+	VALUES ("f630ec18-990c-4ab3-8699-89fb53183423",
 	"bfd67079-d8e2-4bcc-a117-2ee39f8ee84f",
 	-1,
-	'one',
+	'two',
 	'');
 INSERT INTO C_AS
-	VALUES ("400b5972-c780-4cd3-9c23-00787f3313e3",
-	'one',
+	VALUES ("f630ec18-990c-4ab3-8699-89fb53183423",
+	'two',
 	'',
 	0,
 	"00000000-0000-0000-0000-000000000000");
-INSERT INTO C_EP
-	VALUES ("f630ec18-990c-4ab3-8699-89fb53183423",
-	"bfd67079-d8e2-4bcc-a117-2ee39f8ee84f",
-	-1,
-	'two',
-	'');
-INSERT INTO C_AS
-	VALUES ("f630ec18-990c-4ab3-8699-89fb53183423",
-	'two',
-	'',
-	0,
-	"400b5972-c780-4cd3-9c23-00787f3313e3");
 INSERT INTO C_EP
 	VALUES ("d62e5a21-d4d1-482d-a81b-797808e8e8cd",
 	"bfd67079-d8e2-4bcc-a117-2ee39f8ee84f",

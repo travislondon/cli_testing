@@ -183,23 +183,6 @@ INSERT INTO C_P
 	'',
 	'Component::Port1::iface');
 INSERT INTO SPR_PEP
-	VALUES ("e32ff81d-3b45-4fa4-8fbf-1be0c655b19d",
-	"400b5972-c780-4cd3-9c23-00787f3313e3",
-	"ee52e327-b4de-4fab-88bf-c97e64b02d24");
-INSERT INTO SPR_PS
-	VALUES ("e32ff81d-3b45-4fa4-8fbf-1be0c655b19d",
-	'one',
-	'',
-	'',
-	3);
-INSERT INTO C_EP_PROXY
-	VALUES ("400b5972-c780-4cd3-9c23-00787f3313e3",
-	"bfd67079-d8e2-4bcc-a117-2ee39f8ee84f",
-	-1,
-	'one',
-	'',
-	'../../Interfaces/iface/iface.xtuml');
-INSERT INTO SPR_PEP
 	VALUES ("67a549f3-ea08-43ee-922a-840e4cc8cf3d",
 	"f630ec18-990c-4ab3-8699-89fb53183423",
 	"ee52e327-b4de-4fab-88bf-c97e64b02d24");
