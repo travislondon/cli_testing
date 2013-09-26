@@ -1,7 +1,7 @@
 -- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
 
 INSERT INTO O_OBJ
-	VALUES ("bd893cd3-624b-4cb9-8b85-a3b8fe44b1b4",
+	VALUES ("d0bf9da8-18a7-4ad2-92e3-e528c62363fe",
 	'Unnamed Class-1',
 	2,
 	'KEY',
@@ -9,15 +9,15 @@ INSERT INTO O_OBJ
 	"00000000-0000-0000-0000-000000000000");
 INSERT INTO O_ID
 	VALUES (0,
-	"bd893cd3-624b-4cb9-8b85-a3b8fe44b1b4");
+	"d0bf9da8-18a7-4ad2-92e3-e528c62363fe");
 INSERT INTO O_ID
 	VALUES (1,
-	"bd893cd3-624b-4cb9-8b85-a3b8fe44b1b4");
+	"d0bf9da8-18a7-4ad2-92e3-e528c62363fe");
 INSERT INTO O_ID
 	VALUES (2,
-	"bd893cd3-624b-4cb9-8b85-a3b8fe44b1b4");
+	"d0bf9da8-18a7-4ad2-92e3-e528c62363fe");
 INSERT INTO PE_PE
-	VALUES ("bd893cd3-624b-4cb9-8b85-a3b8fe44b1b4",
+	VALUES ("d0bf9da8-18a7-4ad2-92e3-e528c62363fe",
 	1,
 	"020f7dbb-bcb3-4214-96e6-68b1a08c1502",
 	"00000000-0000-0000-0000-000000000000",
