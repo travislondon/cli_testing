@@ -2,7 +2,7 @@
 
 INSERT INTO O_OBJ
 	VALUES ("990d0dfb-be12-4113-9ade-462abdfa2dc2",
-	'Unnamed Class',
+	'x',
 	1,
 	'KEY',
 	'',
