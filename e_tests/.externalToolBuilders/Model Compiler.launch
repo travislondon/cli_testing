@@ -11,5 +11,6 @@
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="C:/git/internal/src/com.mentor.nucleus.bp.mc.c.binary/mc3020/bin/xtumlmc_build.exe"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_RUN_BUILD_KINDS" value="full,incremental,"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value=" -home &quot;C:/git/internal/src/com.mentor.nucleus.bp.mc.c.binary/&quot;  -l3b  -e -d code_generation -O ../../src/"/>
+<booleanAttribute key="org.eclipse.ui.externaltools.ATTR_TRIGGERS_CONFIGURED" value="true"/>
 <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${build_project}/gen"/>
 </launchConfiguration>
