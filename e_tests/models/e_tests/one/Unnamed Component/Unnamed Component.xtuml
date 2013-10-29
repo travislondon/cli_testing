@@ -174,7 +174,7 @@ INSERT INTO GD_GE
 	"c9528475-1e4f-4a20-9a41-df598b39c37b",
 	94,
 	0,
-	'e_tests::one::Unnamed Component::Port1::1');
+	'e_tests::one::Unnamed Component::Port1::Unnamed Interface');
 INSERT INTO GD_CON
 	VALUES ("850c3755-a942-4102-b77f-3a99ee798b7b",
 	"00000000-0000-0000-0000-000000000000");
@@ -306,21 +306,15 @@ INSERT INTO C_PO
 	0);
 INSERT INTO C_IR
 	VALUES ("c9528475-1e4f-4a20-9a41-df598b39c37b",
-	"6da48904-9a59-4f33-a9d6-5344fcceb9ad",
+	"00000000-0000-0000-0000-000000000000",
 	"00000000-0000-0000-0000-000000000000",
 	"4dee6224-13e8-463c-9675-fc287d8379c7");
 INSERT INTO C_P
 	VALUES ("c9528475-1e4f-4a20-9a41-df598b39c37b",
-	'1',
+	'Unnamed Interface',
 	'Unnamed Interface',
 	'',
-	'Unnamed Component::Port1::1');
-INSERT INTO C_I_PROXY
-	VALUES ("6da48904-9a59-4f33-a9d6-5344fcceb9ad",
-	"00000000-0000-0000-0000-000000000000",
-	'1',
-	'',
-	'../1/1.xtuml');
+	'Unnamed Component::Port1::Unnamed Interface');
 INSERT INTO PE_PE
 	VALUES ("74b18788-6aa4-4b04-b503-2c5d01c25b29",
 	1,
