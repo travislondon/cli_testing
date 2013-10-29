@@ -1,0 +1,46 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("368650bc-9f92-4526-8391-2286c70446c3",
+	"a703f976-2d14-415e-bf3b-cf0470f81e4d",
+	"a703f976-2d14-415e-bf3b-cf0470f81e4d",
+	'one',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("c487cc47-0063-40bc-82b3-aafc3c703874",
+	112,
+	"368650bc-9f92-4526-8391-2286c70446c3",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'',
+	'e_tests::one');
+INSERT INTO DIM_DIA
+	VALUES ("c487cc47-0063-40bc-82b3-aafc3c703874",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("368650bc-9f92-4526-8391-2286c70446c3",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("a703f976-2d14-415e-bf3b-cf0470f81e4d",
+	'e_tests',
+	1,
+	'../e_tests.xtuml');
