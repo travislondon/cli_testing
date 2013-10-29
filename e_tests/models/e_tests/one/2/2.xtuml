@@ -1,12 +1,12 @@
 -- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
 
 INSERT INTO C_I
-	VALUES ("84bf1608-fe2f-4a44-8ac8-0b6114ed277a",
+	VALUES ("19ff692b-4795-40d1-8a0b-2181dbe5af5f",
 	"00000000-0000-0000-0000-000000000000",
-	'Unnamed Interface',
+	'2',
 	'');
 INSERT INTO PE_PE
-	VALUES ("84bf1608-fe2f-4a44-8ac8-0b6114ed277a",
+	VALUES ("19ff692b-4795-40d1-8a0b-2181dbe5af5f",
 	1,
 	"de46178a-e704-4a4e-80c3-d20efc73689b",
 	"00000000-0000-0000-0000-000000000000",
