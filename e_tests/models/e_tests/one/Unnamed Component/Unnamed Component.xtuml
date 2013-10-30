@@ -338,23 +338,6 @@ INSERT INTO C_EP_PROXY
 	'operation',
 	'',
 	'../iface/iface.xtuml');
-INSERT INTO SPR_PEP
-	VALUES ("4f00bc94-cfe1-4d10-b6a7-112989ed89d7",
-	"af8225f7-3d8a-489a-aeed-d2707af2abfd",
-	"106aec66-78c8-4b99-9f3a-83dc27f2e189");
-INSERT INTO SPR_PO
-	VALUES ("4f00bc94-cfe1-4d10-b6a7-112989ed89d7",
-	'oepration_two',
-	'',
-	'',
-	3);
-INSERT INTO C_EP_PROXY
-	VALUES ("af8225f7-3d8a-489a-aeed-d2707af2abfd",
-	"97dff864-0177-4e10-a75d-df2a4fee660e",
-	-1,
-	'oepration_two',
-	'',
-	'../iface/iface.xtuml');
 INSERT INTO C_I_PROXY
 	VALUES ("97dff864-0177-4e10-a75d-df2a4fee660e",
 	"00000000-0000-0000-0000-000000000000",
@@ -405,16 +388,6 @@ INSERT INTO SPR_REP
 INSERT INTO SPR_RO
 	VALUES ("d23b3d8b-6186-4e5f-9b10-afe92e3d9333",
 	'operation',
-	'',
-	'',
-	3);
-INSERT INTO SPR_REP
-	VALUES ("9d05a728-4842-40b7-9abd-b56c2ad1e0e5",
-	"af8225f7-3d8a-489a-aeed-d2707af2abfd",
-	"67845f2d-d5bd-4149-a11f-c0ea8fce8134");
-INSERT INTO SPR_RO
-	VALUES ("9d05a728-4842-40b7-9abd-b56c2ad1e0e5",
-	'oepration_two',
 	'',
 	'',
 	3);
