@@ -1,0 +1,73 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("97dff864-0177-4e10-a75d-df2a4fee660e",
+	"00000000-0000-0000-0000-000000000000",
+	'iface',
+	'');
+INSERT INTO C_EP
+	VALUES ("b030b8f8-4a91-4625-b3bf-1d498ea6052c",
+	"97dff864-0177-4e10-a75d-df2a4fee660e",
+	-1,
+	'operation',
+	'');
+INSERT INTO C_IO
+	VALUES ("b030b8f8-4a91-4625-b3bf-1d498ea6052c",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'operation',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("af8225f7-3d8a-489a-aeed-d2707af2abfd",
+	"97dff864-0177-4e10-a75d-df2a4fee660e",
+	-1,
+	'oepration_two',
+	'');
+INSERT INTO C_IO
+	VALUES ("af8225f7-3d8a-489a-aeed-d2707af2abfd",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'oepration_two',
+	'',
+	0,
+	'',
+	"b030b8f8-4a91-4625-b3bf-1d498ea6052c");
+INSERT INTO C_EP
+	VALUES ("726b2dd9-a944-4d52-82ee-d7af0eb058a1",
+	"97dff864-0177-4e10-a75d-df2a4fee660e",
+	-1,
+	'signal',
+	'');
+INSERT INTO C_AS
+	VALUES ("726b2dd9-a944-4d52-82ee-d7af0eb058a1",
+	'signal',
+	'',
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_EP
+	VALUES ("e15a54af-e92d-43f1-aa7e-a2c33e5058ad",
+	"97dff864-0177-4e10-a75d-df2a4fee660e",
+	-1,
+	'signal_two',
+	'');
+INSERT INTO C_AS
+	VALUES ("e15a54af-e92d-43f1-aa7e-a2c33e5058ad",
+	'signal_two',
+	'',
+	0,
+	"726b2dd9-a944-4d52-82ee-d7af0eb058a1");
+INSERT INTO PE_PE
+	VALUES ("97dff864-0177-4e10-a75d-df2a4fee660e",
+	1,
+	"de46178a-e704-4a4e-80c3-d20efc73689b",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("de46178a-e704-4a4e-80c3-d20efc73689b",
+	"a703f976-2d14-415e-bf3b-cf0470f81e4d",
+	"a703f976-2d14-415e-bf3b-cf0470f81e4d",
+	'one',
+	'',
+	0,
+	'../one.xtuml');
