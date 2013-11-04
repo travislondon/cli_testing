@@ -16,11 +16,29 @@ INSERT INTO O_BATTR
 INSERT INTO O_ATTR
 	VALUES ("a721685d-c0a6-4951-a511-ba6a8be2c5ff",
 	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8",
+	"29553fcd-cd6c-4836-9d17-799748373913",
+	'two',
+	'',
+	'',
+	'two',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("29553fcd-cd6c-4836-9d17-799748373913",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO O_BATTR
+	VALUES ("29553fcd-cd6c-4836-9d17-799748373913",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO O_ATTR
+	VALUES ("29553fcd-cd6c-4836-9d17-799748373913",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8",
 	"00000000-0000-0000-0000-000000000000",
-	'two',
+	'one',
 	'',
 	'',
-	'two',
+	'one',
 	0,
 	"ba5eda7a-def5-0000-0000-000000000002",
 	'',
