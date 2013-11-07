@@ -1,0 +1,56 @@
+-- BP 7.1.6 content: SystemModel syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO S_SYS
+	VALUES ("77ceec6a-3257-434a-8cd4-76899deb34c7",
+	'i_test',
+	1);
+INSERT INTO GD_MD
+	VALUES ("10a0ff15-9c6c-4aa5-a603-7f997b9635ec",
+	108,
+	"77ceec6a-3257-434a-8cd4-76899deb34c7",
+	92,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	0,
+	0,
+	0,
+	'4.1.0',
+	'i_test');
+INSERT INTO GD_GE
+	VALUES ("6ca233f8-cd0f-4895-bdbd-5e29cfe0bf8f",
+	"10a0ff15-9c6c-4aa5-a603-7f997b9635ec",
+	"555018f6-7154-4dbc-8aee-0d0cc7127414",
+	108,
+	0,
+	'i_test::Unnamed Package');
+INSERT INTO GD_SHP
+	VALUES ("6ca233f8-cd0f-4895-bdbd-5e29cfe0bf8f");
+INSERT INTO GD_NCS
+	VALUES ("6ca233f8-cd0f-4895-bdbd-5e29cfe0bf8f");
+INSERT INTO DIM_ND
+	VALUES (289.000000,
+	193.000000,
+	"6ca233f8-cd0f-4895-bdbd-5e29cfe0bf8f");
+INSERT INTO DIM_GE
+	VALUES (4848.000000,
+	3288.000000,
+	"6ca233f8-cd0f-4895-bdbd-5e29cfe0bf8f",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("6ca233f8-cd0f-4895-bdbd-5e29cfe0bf8f",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("10a0ff15-9c6c-4aa5-a603-7f997b9635ec",
+	'',
+	1.000000,
+	4000.000000,
+	3000.000000,
+	"00000000-0000-0000-0000-000000000000");
