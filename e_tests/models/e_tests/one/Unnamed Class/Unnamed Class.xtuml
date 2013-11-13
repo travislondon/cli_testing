@@ -1,0 +1,68 @@
+-- BP 7.1.6 content: ModelClass syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO O_OBJ
+	VALUES ("02bbd02c-e0da-43a9-81da-1a2b3b6239f8",
+	'Unnamed Class',
+	1,
+	'KEY',
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_NBATTR
+	VALUES ("a721685d-c0a6-4951-a511-ba6a8be2c5ff",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO O_BATTR
+	VALUES ("a721685d-c0a6-4951-a511-ba6a8be2c5ff",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO O_ATTR
+	VALUES ("a721685d-c0a6-4951-a511-ba6a8be2c5ff",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8",
+	"29553fcd-cd6c-4836-9d17-799748373913",
+	'two',
+	'',
+	'',
+	'two',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("29553fcd-cd6c-4836-9d17-799748373913",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO O_BATTR
+	VALUES ("29553fcd-cd6c-4836-9d17-799748373913",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO O_ATTR
+	VALUES ("29553fcd-cd6c-4836-9d17-799748373913",
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8",
+	"00000000-0000-0000-0000-000000000000",
+	'one',
+	'',
+	'',
+	'one',
+	0,
+	"ba5eda7a-def5-0000-0000-000000000002",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO O_ID
+	VALUES (1,
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO O_ID
+	VALUES (2,
+	"02bbd02c-e0da-43a9-81da-1a2b3b6239f8");
+INSERT INTO PE_PE
+	VALUES ("02bbd02c-e0da-43a9-81da-1a2b3b6239f8",
+	1,
+	"de46178a-e704-4a4e-80c3-d20efc73689b",
+	"00000000-0000-0000-0000-000000000000",
+	4);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("de46178a-e704-4a4e-80c3-d20efc73689b",
+	"a703f976-2d14-415e-bf3b-cf0470f81e4d",
+	"a703f976-2d14-415e-bf3b-cf0470f81e4d",
+	'one',
+	'',
+	0,
+	'../one.xtuml');
